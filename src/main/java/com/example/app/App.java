@@ -27,7 +27,8 @@ class Voter {
 public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("--- Voting Eligibility System ---");
+        System.out.println("Voting Eligibility System");
+        System.out.println("Monishwar - 23MIS0690");
         
         System.out.print("Enter name: ");
         String name = sc.nextLine();
