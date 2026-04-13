@@ -17,10 +17,12 @@ class Voter {
     }
 
     public String checkEligibility() {
-        if (age < 18) return "Ineligible: Underage (Must be 18+)";
-        if (!citizenship.equalsIgnoreCase("Indian")) return "Ineligible: Not a citizen";
-        if (!isIdValid) return "Ineligible: Invalid Voter ID";
-        return "Eligible to Vote";
+            if (age < 18) return "Ineligible: Underage (Must be 18+)";
+            // Change this line:
+            if (!citizenship.equalsIgnoreCase("Indian")) return "Ineligible: Not an Indian citizen";
+
+            if (!isIdValid) return "Ineligible: Invalid Voter ID";
+            return "Eligible to Vote";
     }
 }
 
