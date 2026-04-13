@@ -1,4 +1,4 @@
-package com.voting.app;
+package com.example.app;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
